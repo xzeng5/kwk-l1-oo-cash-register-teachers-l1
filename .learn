@@ -11,3 +11,5 @@ languages:
   - git
   - bash
 level: 1
+
+parent_template: git@github.com:learn-co-curriculum/upperline-hs-oo-cash-register.git
