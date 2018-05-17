@@ -1,7 +1,8 @@
+
 describe 'AmazonTransaction' do
   let(:amazon_transaction) { AmazonTransaction.new }
   let(:amazon_transaction_with_discount) { AmazonTransaction.new(20) }
- 
+
 
   describe '::new' do
     it 'sets an instance variable for @total on initialization to zero' do
@@ -94,7 +95,7 @@ describe 'AmazonTransaction' do
   #   end
   # end
 
-  #Completing this test requires knowledge of class variables, class methods and self. 
+  #Completing this test requires knowledge of class variables, class methods and self.
   # describe '.transaction_codes' do
   #  it 'generates a random, six-digit code when a transaction is created' do
   #       expect(amazon_transaction.transaction_code).to be > 100000
@@ -117,8 +118,3 @@ describe 'AmazonTransaction' do
   #     end
   # end
 end
-
-
-
-
-
