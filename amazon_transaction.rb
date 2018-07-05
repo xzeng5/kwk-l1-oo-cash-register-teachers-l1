@@ -11,6 +11,6 @@ class AmazonTransaction
 
   def add_item(title, price)
     
-  end 
+  end
 
 end
