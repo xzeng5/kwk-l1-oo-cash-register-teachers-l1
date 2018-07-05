@@ -12,6 +12,10 @@ class AmazonTransaction
   def add_item(title, price, optional = nil)
     @total = price
     @items << title
+
+    if optional != nil 
+      @total = price * optional 
+    end
   end
 
 end
