@@ -19,6 +19,7 @@ class AmazonTransaction
   end
 
   def apply_discount
+    
   end
 
 end
