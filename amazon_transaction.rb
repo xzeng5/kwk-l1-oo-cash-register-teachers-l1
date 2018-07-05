@@ -23,3 +23,6 @@ class AmazonTransaction
   # end
 
 end
+
+example = AmazonTransaction.new
+puts example.discount
