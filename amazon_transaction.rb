@@ -19,11 +19,11 @@ class AmazonTransaction
   end
 
   def apply_discount
-    puts @total 
-    puts @discount 
+
     @total = @total * (100 - @discount)/100
   end
-
+  puts @total
+  puts @discount 
 end
 #
 # example = AmazonTransaction.new
