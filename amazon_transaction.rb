@@ -13,7 +13,7 @@ class AmazonTransaction
     @items << title
 
     if optional != nil
-      @total = price * optional + @total 
+      @total = price * optional + @total
     else
       @total = price + @total 
     end
