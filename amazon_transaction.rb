@@ -29,3 +29,4 @@ puts example.add_item("Macbook Air", 1000)
 puts example.discount
 
 puts example.apply_discount
+puts example.total 
