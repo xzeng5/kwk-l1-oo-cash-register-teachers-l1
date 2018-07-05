@@ -25,7 +25,7 @@ class AmazonTransaction
 end
 
 example = AmazonTransaction.new
-puts example.add_item("Macbook Air", 1000)
+example.add_item("Macbook Air", 1000)
 puts example.total
 
 puts example.apply_discount
